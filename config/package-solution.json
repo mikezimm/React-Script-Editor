@@ -3,8 +3,9 @@
   "solution": {
     "name": "react-script-editor-client-side-solution",
     "id": "f6039e9e-74a7-4c82-92d1-00ddfb45ee67",
-    "version": "1.0.0.0",
+    "version": "1.0.0.2",
     "includeClientSideAssets": true,
+    "skipFeatureDeployment": false,
     "isDomainIsolated": false,
     "developer": {
       "name": "",
