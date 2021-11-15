@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "ac938cd8-c6a0-4de4-8736-8df1319a9eed",
+  "alias": "ReactScriptEditorWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "SharePointFullPage", "TeamsTab"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
+    "group": { "default": "Other" },
+    "title": { "default": "React Script Editor" },
+    "description": { "default": "Add arbitrary script to a page" },
+    "officeFabricIconFontName": "JS",
+    "properties": {
+      "description": "React Script Editor",
+      "script": "",
+      "title": "The Modern Script Editor web part!",
+      "removePadding": false,
+      "spPageContextInfo": false
+    }
+  }]
+}
